@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <State ID="0">
+    <Title />
+    <Category>Initial_Final</Category>
+    <Transition>1</Transition>
+    <Name>S0</Name>
+    <Connect_To>S0_S1</Connect_To>
+    <Connect_With>0_1</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="1">
+    <Title />
+    <Category>Intermediate_Final</Category>
+    <Transition>1</Transition>
+    <Name>S1</Name>
+    <Connect_To>S0_S2</Connect_To>
+    <Connect_With>0_1</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="2">
+    <Title />
+    <Category>Intermediate_Final</Category>
+    <Transition>1</Transition>
+    <Name>S2</Name>
+    <Connect_To>N_S2</Connect_To>
+    <Connect_With>0_1</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="3">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>1</Transition>
+    <Name>N</Name>
+    <Connect_To>N</Connect_To>
+    <Connect_With>0,1</Connect_With>
+    <Alive>true</Alive>
+  </State>
+</ArrayOfState>

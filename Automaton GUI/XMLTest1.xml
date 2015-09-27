@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="http://tempuri.org/XMLSchemaRegExp.xsd">
+  <!-- regular expression: abc*d -->
+  <!-- accepted strings: abd abcd abccd abcccd abcccccccccccd -->
+  <!-- rejected strings: abcccc acbd abcabcd abcbcd abcdd -->
+  <String>ab</String>
+  <ZeroOrMore>
+    <String>c</String>
+  </ZeroOrMore>
+  <String>d</String>
+</Root>

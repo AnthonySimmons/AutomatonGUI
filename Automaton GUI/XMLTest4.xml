@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="http://tempuri.org/XMLSchemaRegExp.xsd">
+  <!-- regular expression: .*.+.+.*.+  (any string with len >=3)-->
+  <!-- accepted strings:  aab 001 abcd Hello anylongstring-->
+  <!-- rejected strings: a b 0 ab cd  -->
+  <ZeroOrMore>
+    <AnySymbol>qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM1</AnySymbol>
+  </ZeroOrMore>
+  
+  <OneOrMore>
+    <AnySymbol>qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM2</AnySymbol>
+  </OneOrMore>
+  
+  <OneOrMore>
+    <AnySymbol>qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM3</AnySymbol>
+  </OneOrMore>
+  
+  <ZeroOrMore>
+    <AnySymbol>qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM4</AnySymbol>
+  </ZeroOrMore>
+  
+  <OneOrMore>
+    <AnySymbol>qwertyuiopasdfghjklzxcvbnm1234567890QWERTYUIOPASDFGHJKLZXCVBNM5</AnySymbol>
+  </OneOrMore>
+</Root>

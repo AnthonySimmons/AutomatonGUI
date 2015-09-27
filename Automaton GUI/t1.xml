@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <State ID="0">
+    <Title />
+    <Category>Initial</Category>
+    <Transition>0</Transition>
+    <Name>0</Name>
+    <Connect_To>_1</Connect_To>
+    <Connect_With>_0,1,2,3,4,5,6,7,8,9</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="1">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>0</Transition>
+    <Name>1</Name>
+    <Connect_To>2</Connect_To>
+    <Connect_With>p</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="2">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>0</Transition>
+    <Name>2</Name>
+    <Connect_To>3</Connect_To>
+    <Connect_With>l</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="3">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>0</Transition>
+    <Name>3</Name>
+    <Connect_To>4</Connect_To>
+    <Connect_With>u</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="4">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>0</Transition>
+    <Name>4</Name>
+    <Connect_To>5</Connect_To>
+    <Connect_With>s</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="5">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>0</Transition>
+    <Name>5</Name>
+    <Connect_To>_6</Connect_To>
+    <Connect_With>_0,1,2,3,4,5,6,7,8,9</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="6">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>0</Transition>
+    <Name>6</Name>
+    <Connect_To>7</Connect_To>
+    <Connect_With>i</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="7">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>0</Transition>
+    <Name>7</Name>
+    <Connect_To>8</Connect_To>
+    <Connect_With>s</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="8">
+    <Title />
+    <Category>Intermediate</Category>
+    <Transition>0</Transition>
+    <Name>8</Name>
+    <Connect_To>8_9</Connect_To>
+    <Connect_With>1_0,1,2,3,4,5,6,7,8,9</Connect_With>
+    <Alive>true</Alive>
+  </State>
+  <State ID="9">
+    <Title />
+    <Category>Final</Category>
+    <Transition>0</Transition>
+    <Name>9</Name>
+    <Connect_To />
+    <Connect_With />
+    <Alive>true</Alive>
+  </State>
+</ArrayOfState>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root xmlns="http://tempuri.org/XMLSchemaRegExp.xsd">
+  <!-- regular expression: [0-9]plus[0-9]is(1?[0-9])-->
+  <!-- accepted strings:  0plus0is0 1plus2is3 9plus9is19 9plus9is0 3plus3is1-->
+  <!-- rejected strings: 0plus0is 0plus0is20 10plus10is20 3plus7is01 XplusYisZ  -->
+  <AnySymbol>0123456789</AnySymbol>
+  <String>plus</String>
+  <AnySymbol>0123456789</AnySymbol>
+  <String>is</String>
+  <ZeroOrOne>1</ZeroOrOne>
+  <AnySymbol>0123456789</AnySymbol>  
+</Root>
